@@ -1,0 +1,34 @@
+[/]
+control-center=['<Super>c']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/']
+logout=['<Primary><Super>l']
+screensaver=['<Super>l']
+search=['F3']
+volume-down=['<Super>KP_Subtract']
+volume-mute=['<Super>KP_0']
+volume-up=['<Super>KP_Add']
+
+[custom-keybindings/PopLaunch1]
+binding='Launch1'
+command='gnome-control-center wifi'
+name='WiFi'
+
+[custom-keybindings/custom0]
+binding='<Super>F4'
+command='gnome-session-quit --power-off'
+name='shutdown'
+
+[custom-keybindings/custom1]
+binding='<Primary><Alt>Delete'
+command='gnome-system-monitor'
+name='task manager'
+
+[custom-keybindings/custom2]
+binding='<Super>space'
+command='/home/amir/toggle-top-bar.sh'
+name='Toggle Top Bar'
+
+[custom-keybindings/custom3]
+binding='<Shift><Super>F4'
+command='gnome-session-quit --reboot'
+name='reboot'
